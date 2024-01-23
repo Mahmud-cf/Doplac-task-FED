@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&display=swap');
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'Instrument Sans', sans-serif;
+}
+.full-page-wrapper{
+  background: #FBFDFF;
+  width:100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  padding:3rem 5rem;
+}
+.step-wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.step-wrapper .button-title{
+  width:301px;
+  height:62px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border:1px solid #DFE1E1;
+  color: #212524;
+  border-radius: 10px;
+  font-Weight: 600;
+  font-size: 14px;
+  line-height:22px;
+  position: relative;
+  z-index: 3;
+}
+.step-wrapper .line::after{
+  position: absolute;
+  content: '';
+  width:1px;
+  height: 80px;
+  background-color: #DFE1E1;
+  left:149px;
+  top:100%;
+  z-index: 1;
+}
+.step-wrapper .plus-icon{
+  width: 50px;
+  height: 36px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin:20px 0;
+  font-size: 22px;
+  color:#109c95;
+  background-color: #fff;
+  border:1px solid #DFE1E1;
+  cursor: pointer;
+  position: relative;
+  z-index: 3;
+}
+.step-wrapper:last-child .plus-icon{
+  display: none;
+}
+.step-wrapper:last-child .line::after{
+  display: none;
+}
+
+/* SUB BUTTON STYLE  */
+
+.sub-item-wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+.sub-item-wrapper .sub-button{
+  width:73px;
+  height:30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  border: 1px solid #DFE1E1;
+  border-radius: 6px;
+  margin-top:28px;
+  color:#212524;
+  background-color: #fff;
+}
+.sub-item-wrapper .sub-button-wrapper{
+  position:relative;
+}
+.sub-item-wrapper .sub-button-wrapper::before{
+  position: absolute;
+  content: '';
+  width:1px;
+  height: 30px;
+  background-color: #DFE1E1;
+  z-index: 1;
+  left:36px;
+}
+.sub-item-wrapper .sub-button-wrapper:nth-child(1){
+  margin-right: 100px;
+}
+
