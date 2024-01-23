@@ -14,7 +14,6 @@
   justify-content: center;
   /* align-items: center; */
   padding:3rem 5rem;
-  padding-bottom:10rem;
 }
 .step-wrapper{
   display: flex;
@@ -166,5 +165,52 @@
 .grandsub .button-title{
   margin-top:-7px;
 }
+
+
+/* ===================== RESPONSIVE CSS START ============================ */
+
+@media screen and (max-width:776px) {
+  .sub-item-wrapper .sub-button-wrapper:first-child{
+    margin-right:1rem;
+  }
+  .sub-item-wrapper .sub-button-wrapper:last-child{
+    margin-left: 1rem;
+  }
+  .step-wrapper .button-title{
+    width:201px;
+    height: 40px;
+  }
+  .step-wrapper .line::after{
+    left:99px;
+  }
+  .curv3{
+    margin-left:4.3rem;
+  }
+}
+
+@media screen and (max-width:450px) {
+  .sub-item-wrapper .sub-button-wrapper:first-child{
+    margin-right:.6rem;
+  }
+  .sub-item-wrapper .sub-button-wrapper:last-child{
+    margin-left: .6rem;
+  }
+  .step-wrapper .button-title{
+    width:141px;
+    height: 35px;
+  }
+  .step-wrapper .line::after{
+    left:71px;
+  }
+  .curv3{
+    margin-left:.6rem;
+  }
+}
+
+
+
+
+
+
 
 
