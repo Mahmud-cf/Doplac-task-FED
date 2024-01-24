@@ -1,8 +1,14 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Front end Developer Task
 
-Currently, two official plugins are available:
+Doplac CRM authority has given this task to hire employees for front and developer posts.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## Live link
+https://doplac-fed-job-task.netlify.app/
+
+
+## Features
+
+- According to their conditions, here only the data from the object is rendered and printed dynamically.
+
