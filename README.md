@@ -10,5 +10,5 @@ https://doplac-fed-job-task.netlify.app/
 
 ## Features
 
-- According to their conditions, here only the data from the object is rendered and printed dynamically
+- According to their conditions, here only the data from the object is rendered and printed dynamically.
 
